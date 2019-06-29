@@ -13,11 +13,11 @@ A random noise vector of size 100 is given to the generator. The generater has 4
 ### Platform: Python 3.7
 
 ## Libraries:
-* tensorflow__
-* matplotlib__
-* PIL_________
-* numpy_______
-* glob________
+* tensorflow__ 1.14
+* matplotlib__ 3.0.3
+* PIL_________ 4.3.0
+* numpy_______ 1.16
+* glob2_______ 0.7
 * os
 * time
 * tqdm
