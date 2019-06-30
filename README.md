@@ -10,6 +10,19 @@ role in many remote sensing image applications. Training a good classifier needs
 
 A random noise vector of size 100 is given to the generator. The generater has 4 transpose convolution layers, each layer is followed by batch normalisation and leaky_relu non-liearity. The output of the 4th layer is again convolved to obtain an image vector of shape 128x128x3. The generated image is then passed to the discriminator network, composed of five convolution layers, each of which is also followed by batch normalisation and leaky_relu non-linearity. The output of the 5th layer is flattened and compressed into a single probability value. Based on this value the model is optimised.
 
+### Sample Images
+![alt text](https://github.com/aashishrai3799/Remote-Sensing-Image-Generation/blob/master/sample_images/01.png)
+![alt text](https://github.com/aashishrai3799/Remote-Sensing-Image-Generation/blob/master/sample_images/04.png)
+![alt text](https://github.com/aashishrai3799/Remote-Sensing-Image-Generation/blob/master/sample_images/03.png)
+![alt text](https://github.com/aashishrai3799/Remote-Sensing-Image-Generation/blob/master/sample_images/02.png)
+![alt text](https://github.com/aashishrai3799/Remote-Sensing-Image-Generation/blob/master/sample_images/05.png)
+
+### Losses
+
+![alt text](https://github.com/aashishrai3799/Remote-Sensing-Image-Generation/blob/master/sample_images/losses_198.png)
+
+
+
 ### Platform: Python 3.7
 
 ## Libraries:
